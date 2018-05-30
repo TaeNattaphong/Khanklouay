@@ -11,8 +11,11 @@ public class ControlPlayer : MonoBehaviour
     public Rigidbody2D myRigit;
     public BoxCollider2D myForm;
     public bool Paused;
+    public static float hp;
+    public float max = 100;
+    public Image img;
 
-
+    private float widthImg;
 
     //bool jump = false;
 
@@ -24,11 +27,29 @@ public class ControlPlayer : MonoBehaviour
         myRigit = GetComponent<Rigidbody2D>();
         myForm = GetComponent<BoxCollider2D>();
         Paused = false;
+        widthImg =  img.GetComponent<RectTransform>().sizeDelta.x;
+        hp = 100;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (hp <= 0) {
+            if (GameContorler.numLife == 0) {
+				new seen().ChangeScene("GameOver");
+			}
+			else {
+				gameObject.transform.position = new Vector3(-8f,10f,-5f);
+				Text tt;
+				tt = GameObject.Find("/Canvas showVeiw/Life").GetComponent<Text>();
+				GameContorler.numLife--;
+				tt.text = "Life = " + GameContorler.numLife;
+                hp = 100;
+			}
+        }
+        img.GetComponent<RectTransform>().sizeDelta = new Vector2( (hp / max) * widthImg,img.GetComponent<RectTransform>().sizeDelta.y );
+        Debug.Log((hp / max) * widthImg);
+        Debug.Log(hp / max + " " + widthImg);
         if (Input.GetKey(KeyCode.D))
         {
             //.rigidbody2D.velocity = new Vector2(3f, 0f);
@@ -71,10 +92,16 @@ public class ControlPlayer : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.S) && !ani.GetBool("isLeft"))
         {
             ani.SetBool("coverRight", true);
+            // myForm.offset = new Vector2(0, -0.2008744f);
+            // myForm.size = new Vector2(0.5f, 0.0001f);
+            // myRigit.velocity = new Vector2(0, 0);
         }
         else if (Input.GetKey(KeyCode.S) && ani.GetBool("isLeft"))
         {
             ani.SetBool("coverLeft", true);
+            myForm.offset = new Vector2(0, -0.2008744f);
+            myForm.size = new Vector2(0.5f, 0.0001f);
+            myRigit.velocity = new Vector2(0, 0);
         }
         else
         {

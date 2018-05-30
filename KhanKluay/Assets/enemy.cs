@@ -82,4 +82,11 @@ public class enemy : MonoBehaviour {
 			isFoundPlayer = false;
 		}
 	}
+
+	void OnCollisionEnter2D(Collision2D other)
+	{
+		if(other.gameObject.CompareTag("Player")) {
+			ControlPlayer.hp -= 5;
+		}
+	}
 }
