@@ -7,7 +7,7 @@ public class CamaraContorl : MonoBehaviour {
 	GameObject player;
 	Vector3 offset;
 	void Start () {
-		player = FindObjectOfType<ControlPlayer>().gameObject;
+		player = FindObjectOfType<playercontrol>().gameObject;
 		offset = player.transform.position - transform.position;
 	}
 	
