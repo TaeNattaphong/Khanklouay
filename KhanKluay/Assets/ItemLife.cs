@@ -17,7 +17,7 @@ public class ItemLife : MonoBehaviour {
 		Text tt;
 		tt = GameObject.Find("/Canvas showVeiw/Life").GetComponent<Text>();
 		GameContorler.numLife++;
-		tt.text = "Life = " + GameContorler.numLife;
+		tt.text = "Life: " + GameContorler.numLife;
 		Destroy(gameObject);
 	}
 }
