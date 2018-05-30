@@ -30,6 +30,7 @@ public class enemy : MonoBehaviour {
 		walkRight = true;
 		spwanPosition = gameObject.transform.position;
 		currentPlayer = en.transform.position.x;
+		Debug.Log(name); 	
 		widthImg =  img.GetComponent<RectTransform>().sizeDelta.x;
         hp = 100;
 	}
