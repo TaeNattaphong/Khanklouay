@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 212251537794353392}
   - component: {fileID: 114508720905758670}
   - component: {fileID: 50184701642169622}
-  - component: {fileID: 114988901948145294}
   - component: {fileID: 58898935186911652}
   m_Layer: 0
   m_Name: WaterBall
@@ -91,21 +90,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagName: Player
---- !u!114 &114988901948145294
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1918662145593630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df9da1ef53bfad341871a817c4e5d09e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  walkRight: 0
-  startWalk: 0
-  distance: 1
-  isFoundPlayer: 0
 --- !u!212 &212251537794353392
 SpriteRenderer:
   m_ObjectHideFlags: 1

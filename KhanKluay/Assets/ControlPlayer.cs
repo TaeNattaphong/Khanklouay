@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ControlPlayer : MonoBehaviour
 {
 
-    public GameObject bullet, bulletPrefub, me;
+    public GameObject bullet, bulletPrefub;
     public Animator ani;
     public Rigidbody2D myRigit;
     public BoxCollider2D myForm;
