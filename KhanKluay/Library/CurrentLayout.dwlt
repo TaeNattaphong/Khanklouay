@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 68
+  controlID: 112
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 82
+  controlID: 10
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 83
+  controlID: 11
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,20 +323,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Adminstater\Desktop\projectbanana\KhanKluay
+  m_LastProjectPath: C:\Users\Adminstater\Desktop\ProjectChang\Khanklouay\KhanKluay
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e8080000
-    m_LastClickedID: 2280
-    m_ExpandedIDs: 00000000e8080000f0080000ee450000f045000000ca9a3bffffff7f
+    m_SelectedIDs: 1c090000
+    m_LastClickedID: 2332
+    m_ExpandedIDs: 00000000e4080000ec080000f82e0000fa2e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,7 +364,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e8080000f0080000ee450000f0450000
+    m_ExpandedIDs: 00000000e4080000ec080000f82e0000fa2e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -479,21 +479,21 @@ MonoBehaviour:
     height: 325
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 460}
-    m_SelectedIDs: b4070000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: de0b0000
     m_LastClickedID: 0
-    m_ExpandedIDs: 9acdfeff22dafeff0ae6feffe46fffff0871fffff2b5ffff6cf9fffff0fbffff00000000384600005c460000ba640000b86d00001cfc00004c34010060340100f034010028350100
+    m_ExpandedIDs: 341ff9ffd821f9ff7a23f9ff5a92f9ffca2bfaffd831faffd4d1faff48d5faff0cf6faffd82efcff9e67fcff3a71fcff2c82fcff789bfcffd0b0fcffced9fcffd20cfeff88f4fffff0fbffff00000000342f000086380000d4380000e6380000f838000058d900001ae90000ac2901008a640100647301000ce701004a1a0200aa1a0200b64f020076500200ae500200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Score
-      m_OriginalName: Score
+      m_Name: EventSystem
+      m_OriginalName: EventSystem
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 27550
+      m_UserData: 137918
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -532,14 +532,14 @@ MonoBehaviour:
     height: 325
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 33.15811486439671
+  lastFramingTime: 4895.645200004376
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.699408, y: -1.1419044, z: -4.6054688}
+    m_Target: {x: 51.221245, y: -7.0853744, z: -8.745577}
     speed: 2
-    m_Value: {x: 1.699408, y: -1.1419044, z: -4.6054688}
+    m_Value: {x: 51.221245, y: -7.0853744, z: -8.745577}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -571,15 +571,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 16.916504
+    m_Target: 21.912838
     speed: 2
-    m_Value: 16.916504
+    m_Value: 21.912838
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.33560535, y: -0.30739567, z: 0.116868, w: 0.88273376}
+  m_LastSceneViewRotation: {x: 0.07053375, y: 0.2161042, z: -0.015654078, w: 0.9736935}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -681,7 +681,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 62
-    y: 439
+    y: 438
     width: 1077
-    height: 403
+    height: 404
   m_PersistentViewDataDictionary: {fileID: 0}

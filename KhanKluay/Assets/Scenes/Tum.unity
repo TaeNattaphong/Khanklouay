@@ -3139,7 +3139,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Life = '
+  m_Text: 'Life: '
 --- !u!222 &1251190401
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5718,7 +5718,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Score = 0
+  m_Text: 'Score: '
 --- !u!222 &2106937517
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -17,7 +17,7 @@ public class ItemScore : MonoBehaviour {
 		Text t;
 		t = GameObject.Find("/Canvas showVeiw/Score").GetComponent<Text>();
 		GameContorler.numScore += 10;
-		t.text = "Score = " + GameContorler.numScore;
+		t.text = "Score: " + GameContorler.numScore;
 		Destroy(gameObject);
 	}
 }
