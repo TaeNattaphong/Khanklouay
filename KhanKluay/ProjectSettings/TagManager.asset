@@ -8,6 +8,7 @@ TagManager:
   - Death
   - ChangeSceneTummy
   - ChangeSceneBosso
+  - wall
   layers:
   - Default
   - TransparentFX

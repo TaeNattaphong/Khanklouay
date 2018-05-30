@@ -71,16 +71,10 @@ public class ControlPlayer : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.S) && !ani.GetBool("isLeft"))
         {
             ani.SetBool("coverRight", true);
-            // myForm.offset = new Vector2(0, -0.2008744f);
-            // myForm.size = new Vector2(0.5f, 0.0001f);
-            // myRigit.velocity = new Vector2(0, 0);
         }
         else if (Input.GetKey(KeyCode.S) && ani.GetBool("isLeft"))
         {
             ani.SetBool("coverLeft", true);
-            myForm.offset = new Vector2(0, -0.2008744f);
-            myForm.size = new Vector2(0.5f, 0.0001f);
-            myRigit.velocity = new Vector2(0, 0);
         }
         else
         {
