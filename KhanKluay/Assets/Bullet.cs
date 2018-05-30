@@ -6,22 +6,15 @@ using UnityEngine;
 public class Bullet : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	public string tagName;
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if(other.tag.Equals("enemy")){
+		if(other.tag.Equals(tagName)){
 		Destroy(other.gameObject);
 		Destroy(gameObject);
 
-		Debug.Log("fire enemy");
+		//Debug.Log("fire enemy");
 		}
 	}
 }

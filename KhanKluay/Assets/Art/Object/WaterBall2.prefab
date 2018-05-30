@@ -73,6 +73,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9d6b1251ccdfea4fb5af860426b299f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagName: enemy
 --- !u!212 &212047570653375778
 SpriteRenderer:
   m_ObjectHideFlags: 1

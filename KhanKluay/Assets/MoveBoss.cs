@@ -9,6 +9,7 @@ public class MoveBoss : MonoBehaviour {
 	Transform post;
 	Rigidbody2D moveMent;
 	Animator fact;
+	float timeOut, coolDown = 5;
 
 	private float jump = 0f;
 
@@ -20,16 +21,17 @@ public class MoveBoss : MonoBehaviour {
 
 	}
 
-	void OnTriggerEnter2D(Collider2D coll)
+	void OnTriggerStay2D(Collider2D coll)
 	{
-        if (coll.gameObject.CompareTag("Player")) {
+        if (coll.gameObject.CompareTag("Player") && (Time.time >= timeOut+coolDown)) {
 			int i = 1;
 			while(i != 5){
 				realBullet = Instantiate(Bullet, gameObject.transform.position, Quaternion.identity);
-				realBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(1f, 0f);
-				Destroy(realBullet, 5);
+				realBullet.GetComponent<Rigidbody2D>().velocity = new Vector2((10f+i)*distance,i);
+				Destroy(realBullet, 1);
 				i += 1;
 			}
+			timeOut = Time.time;
 		}
     }
 
