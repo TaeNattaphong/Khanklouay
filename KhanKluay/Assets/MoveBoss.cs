@@ -21,10 +21,15 @@ public class MoveBoss : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D coll)
-    {
+	{
         if (coll.gameObject.CompareTag("Player")) {
-			realBullet = Instantiate(Bullet, gameObject.transform.position, Quaternion.identity);
-            realBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 50f);
+			int i = 1;
+			while(i != 5){
+				realBullet = Instantiate(Bullet, gameObject.transform.position, Quaternion.identity);
+				realBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(1f, 0f);
+				Destroy(realBullet, 5);
+				i += 1;
+			}
 		}
     }
 
