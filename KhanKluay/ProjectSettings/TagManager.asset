@@ -9,7 +9,11 @@ TagManager:
   - ChangeSceneTummy
   - ChangeSceneBosso
   - wall
+<<<<<<< HEAD
   - Enemy
+=======
+  - enemy
+>>>>>>> master
   layers:
   - Default
   - TransparentFX

@@ -1701,7 +1701,7 @@ GameObject:
   - component: {fileID: 942575907}
   m_Layer: 0
   m_Name: tigerWaden
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1718,9 +1718,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.04535571, y: -0.021011405}
+  m_Offset: {x: 0.07372077, y: -0.018253889}
   serializedVersion: 2
-  m_Radius: 1.4280623
+  m_Radius: 2.9973884
 --- !u!50 &942575902
 Rigidbody2D:
   serializedVersion: 4
@@ -1735,7 +1735,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
