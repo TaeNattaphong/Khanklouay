@@ -60,6 +60,7 @@
      <Compile Include="Assets\ItemScore.cs" />
      <Compile Include="Assets\MoveBoss.cs" />
      <Compile Include="Assets\playercontrol.cs" />
+     <Compile Include="Assets\scripUI.cs" />
      <Compile Include="Assets\seen.cs" />
      <Compile Include="Assets\Sound.cs" />
  <Reference Include="UnityEditor.StandardEvents">
