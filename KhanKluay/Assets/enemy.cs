@@ -36,7 +36,10 @@ public class enemy : MonoBehaviour {
 	
 
 	void Update () {
-
+		
+		if (hp <= 0) {
+			Destroy(gameObject);
+        }
 		img.GetComponent<RectTransform>().sizeDelta = new Vector2( (hp / max) * widthImg,img.GetComponent<RectTransform>().sizeDelta.y );
 		float jump = 0f;
 
@@ -95,6 +98,7 @@ public class enemy : MonoBehaviour {
 	{
 		if(other.gameObject.CompareTag("Player")) {
 			ControlPlayer.hp -= 5;
+			hp -= 20;
 		}
 	}
 }

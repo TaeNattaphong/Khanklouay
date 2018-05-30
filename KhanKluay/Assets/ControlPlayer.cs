@@ -48,8 +48,8 @@ public class ControlPlayer : MonoBehaviour
 			}
         }
         img.GetComponent<RectTransform>().sizeDelta = new Vector2( (hp / max) * widthImg,img.GetComponent<RectTransform>().sizeDelta.y );
-        Debug.Log((hp / max) * widthImg);
-        Debug.Log(hp / max + " " + widthImg);
+        // Debug.Log((hp / max) * widthImg);
+        // Debug.Log(hp / max + " " + widthImg);
         if (Input.GetKey(KeyCode.D))
         {
             //.rigidbody2D.velocity = new Vector2(3f, 0f);
@@ -116,14 +116,14 @@ public class ControlPlayer : MonoBehaviour
             ani.SetBool("shootRight", true);
             bulletPrefub = Instantiate(bullet, gameObject.transform.position, Quaternion.identity);
             bulletPrefub.GetComponent<Rigidbody2D>().velocity = new Vector2(50f, 0f);
-            Destroy(bulletPrefub, 23);
+            Destroy(bulletPrefub, 7);
         }
         else if (Input.GetKeyDown(KeyCode.Space) && ani.GetBool("isLeft"))
         {
             ani.SetBool("shootLeft", true);
             bulletPrefub = Instantiate(bullet, gameObject.transform.position, Quaternion.identity);
             bulletPrefub.GetComponent<Rigidbody2D>().velocity = new Vector2(-50f, 0f);
-            Destroy(bulletPrefub, 5);
+            Destroy(bulletPrefub, 7);
         }
         else
         {
