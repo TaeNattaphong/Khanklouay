@@ -54,6 +54,7 @@
      <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\CamaraContorl.cs" />
      <Compile Include="Assets\ControlPlayer.cs" />
+     <Compile Include="Assets\enemy.cs" />
      <Compile Include="Assets\GameContorler.cs" />
      <Compile Include="Assets\ItemLife.cs" />
      <Compile Include="Assets\ItemScore.cs" />

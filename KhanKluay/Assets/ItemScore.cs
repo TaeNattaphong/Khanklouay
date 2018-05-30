@@ -14,10 +14,12 @@ public class ItemScore : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
+		if (other.tag == "Player"){
 		Text t;
 		t = GameObject.Find("/Canvas showVeiw/Score").GetComponent<Text>();
 		GameContorler.numScore += 10;
 		t.text = "Score: " + GameContorler.numScore;
 		Destroy(gameObject);
+		}
 	}
 }
