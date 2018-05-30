@@ -33,24 +33,14 @@ public class MoveBoss : MonoBehaviour {
 		}
     }
 
-	// void OnTriggerExit2D(Collider2D coll)
-	// {
-	// 	if (coll.gameObject.CompareTag("Player")) {
-	// 		// moveMent.velocity = new Vector2(0f, 30f);
-	// 		jump = 0f;
-	// 		Debug.Log("jump");
-	// 	}
-	// }
+
 	void Update () {
-		if(gameObject.transform.position.x <= -45){   // isRight => check animation that onside?
-			// fact.SetBool("isRight",true);
+		if(gameObject.transform.position.x <= -45){  
 			distance = 1;
 		}else if(gameObject.transform.position.x >= 50){
-			// fact.SetBool("isRight",false);
 			distance = -1;
 		}
-		Debug.Log("move");
-		moveMent.velocity = new Vector2(12f*distance, jump);
+		moveMent.velocity = new Vector2(12f*distance, 0);
 	}
 
 }
