@@ -8,7 +8,6 @@ TagManager:
   - Death
   - ChangeSceneTummy
   - ChangeSceneBosso
-  - enemy
   layers:
   - Default
   - TransparentFX
