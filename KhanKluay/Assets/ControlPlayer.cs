@@ -135,7 +135,7 @@ public class ControlPlayer : MonoBehaviour
             myRigit.velocity = new Vector2(0, 0);
         }
     }
-
+    
     void OnCollisionEnter2D(Collision2D coll)
     {
      //booster
