@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/start.unity
-=======
-- path: Assets/Scenes/Bosso.unity
->>>>>>> BulCooldown
+- path: Assets/Scenes/map1.unity
   isLoaded: 1
   isActive: 1
