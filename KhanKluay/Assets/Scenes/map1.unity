@@ -11598,48 +11598,44 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4587938266694118, guid: 43f0a5e0934332d409a075c7ee8a2cda, type: 2}
+    - target: {fileID: 4411620485958064, guid: adb7f6bad890646428bb903e706b0e48, type: 2}
       propertyPath: m_LocalPosition.x
       value: 2.844
       objectReference: {fileID: 0}
-    - target: {fileID: 4587938266694118, guid: 43f0a5e0934332d409a075c7ee8a2cda, type: 2}
+    - target: {fileID: 4411620485958064, guid: adb7f6bad890646428bb903e706b0e48, type: 2}
       propertyPath: m_LocalPosition.y
       value: 1.064
       objectReference: {fileID: 0}
-    - target: {fileID: 4587938266694118, guid: 43f0a5e0934332d409a075c7ee8a2cda, type: 2}
+    - target: {fileID: 4411620485958064, guid: adb7f6bad890646428bb903e706b0e48, type: 2}
       propertyPath: m_LocalPosition.z
       value: -3.8
       objectReference: {fileID: 0}
-    - target: {fileID: 4587938266694118, guid: 43f0a5e0934332d409a075c7ee8a2cda, type: 2}
+    - target: {fileID: 4411620485958064, guid: adb7f6bad890646428bb903e706b0e48, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4587938266694118, guid: 43f0a5e0934332d409a075c7ee8a2cda, type: 2}
+    - target: {fileID: 4411620485958064, guid: adb7f6bad890646428bb903e706b0e48, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4587938266694118, guid: 43f0a5e0934332d409a075c7ee8a2cda, type: 2}
+    - target: {fileID: 4411620485958064, guid: adb7f6bad890646428bb903e706b0e48, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4587938266694118, guid: 43f0a5e0934332d409a075c7ee8a2cda, type: 2}
+    - target: {fileID: 4411620485958064, guid: adb7f6bad890646428bb903e706b0e48, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4587938266694118, guid: 43f0a5e0934332d409a075c7ee8a2cda, type: 2}
+    - target: {fileID: 4411620485958064, guid: adb7f6bad890646428bb903e706b0e48, type: 2}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4587938266694118, guid: 43f0a5e0934332d409a075c7ee8a2cda, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1.9137467
-      objectReference: {fileID: 0}
-    - target: {fileID: 4587938266694118, guid: 43f0a5e0934332d409a075c7ee8a2cda, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1.8333955
+    - target: {fileID: 1906484913384446, guid: adb7f6bad890646428bb903e706b0e48, type: 2}
+      propertyPath: m_Name
+      value: enemy-humen-move-attack_5 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 43f0a5e0934332d409a075c7ee8a2cda, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: adb7f6bad890646428bb903e706b0e48, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &332334087
 GameObject:
@@ -49631,7 +49627,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 17.287172
+  orthographic size: 6.3977175
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

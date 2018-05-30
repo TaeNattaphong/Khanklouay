@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class enemy : MonoBehaviour {
 
@@ -18,6 +19,10 @@ public class enemy : MonoBehaviour {
 	public bool isFoundPlayer = false;
 
 	private float currentPlayer;
+	public static float hp;
+    public float max = 100;
+    public Image img;
+	private float widthImg;
 
 
 	void Start () {
@@ -25,11 +30,14 @@ public class enemy : MonoBehaviour {
 		walkRight = true;
 		spwanPosition = gameObject.transform.position;
 		currentPlayer = en.transform.position.x;
+		widthImg =  img.GetComponent<RectTransform>().sizeDelta.x;
+        hp = 100;
 	}
 	
 
 	void Update () {
 
+		img.GetComponent<RectTransform>().sizeDelta = new Vector2( (hp / max) * widthImg,img.GetComponent<RectTransform>().sizeDelta.y );
 		float jump = 0f;
 
 		if (spwanPosition.x + startWalk <= gameObject.transform.position.x || playerPosition.x - en.transform.position.x < 1){
