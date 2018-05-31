@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 8282735}
   m_Layer: 0
   m_Name: Untitled-2 (7)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 243696075}
   m_Layer: 0
   m_Name: Untitled-2 (9)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -350,7 +350,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4825063752886848, guid: ed3ef8372e4ddf64c8b04af6d02cce6b, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1665242209780136, guid: ed3ef8372e4ddf64c8b04af6d02cce6b, type: 2}
       propertyPath: m_Name
@@ -384,7 +384,7 @@ GameObject:
   - component: {fileID: 276933126}
   m_Layer: 0
   m_Name: Untitled-2 (1)
-  m_TagString: Obstacle
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -484,7 +484,7 @@ GameObject:
   - component: {fileID: 296626676}
   m_Layer: 0
   m_Name: Untitled-2 (3)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -582,7 +582,7 @@ Prefab:
     - target: {fileID: 224983977737439442, guid: cea565b85058c0049a3ee18b64333c14,
         type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 224983977737439442, guid: cea565b85058c0049a3ee18b64333c14,
         type: 2}
@@ -622,7 +622,7 @@ Prefab:
     - target: {fileID: 224983977737439442, guid: cea565b85058c0049a3ee18b64333c14,
         type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 224983977737439442, guid: cea565b85058c0049a3ee18b64333c14,
         type: 2}
@@ -695,7 +695,7 @@ GameObject:
   - component: {fileID: 387937074}
   m_Layer: 0
   m_Name: Untitled-2 (8)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -825,15 +825,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
-      propertyPath: m_TagString
-      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -886,7 +882,7 @@ Transform:
   - {fileID: 679445399}
   - {fileID: 2113290388}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &474982493
 Prefab:
@@ -925,15 +921,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
-      propertyPath: m_TagString
-      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -950,7 +942,7 @@ GameObject:
   - component: {fileID: 480685511}
   m_Layer: 0
   m_Name: Untitled-2 (6)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1249,7 +1241,7 @@ GameObject:
   - component: {fileID: 638904138}
   m_Layer: 0
   m_Name: Untitled-2 (5)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1324,7 +1316,7 @@ GameObject:
   - component: {fileID: 679445397}
   m_Layer: 0
   m_Name: Untitled-5 (6)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1449,11 +1441,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
-      propertyPath: m_TagString
-      value: Item
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -1470,7 +1458,7 @@ GameObject:
   - component: {fileID: 691575631}
   m_Layer: 0
   m_Name: Mushroom_2 (1)
-  m_TagString: Obstacle
+  m_TagString: Booster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1595,15 +1583,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
-      propertyPath: m_TagString
-      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -1645,11 +1629,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4244558934035240, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
       propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
-      propertyPath: m_TagString
-      value: Item
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
@@ -1740,7 +1720,7 @@ GameObject:
   - component: {fileID: 817687216}
   m_Layer: 0
   m_Name: Untitled-2
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2065,15 +2045,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4244558934035240, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
       propertyPath: m_Name
       value: heart (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
-      propertyPath: m_TagString
-      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
@@ -2089,6 +2065,7 @@ GameObject:
   - component: {fileID: 942575903}
   - component: {fileID: 942575902}
   - component: {fileID: 942575906}
+  - component: {fileID: 942575901}
   - component: {fileID: 942575905}
   - component: {fileID: 942575907}
   m_Layer: 0
@@ -2098,6 +2075,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!58 &942575901
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 942575900}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.07372077, y: -0.018253889}
+  serializedVersion: 2
+  m_Radius: 2.9973884
 --- !u!50 &942575902
 Rigidbody2D:
   serializedVersion: 4
@@ -2240,7 +2232,7 @@ GameObject:
   - component: {fileID: 971040867}
   m_Layer: 0
   m_Name: Untitled-2 (2)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2433,7 +2425,7 @@ GameObject:
   - component: {fileID: 1258196546}
   m_Layer: 0
   m_Name: Untitled-2 (4)
-  m_TagString: Obstacle
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2558,15 +2550,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
-      propertyPath: m_TagString
-      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -2583,7 +2571,7 @@ GameObject:
   - component: {fileID: 1394211775}
   m_Layer: 0
   m_Name: Untitled-5 (3)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2808,15 +2796,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4244558934035240, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
       propertyPath: m_Name
       value: heart (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
-      propertyPath: m_TagString
-      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
@@ -3058,15 +3042,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
-      propertyPath: m_TagString
-      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -3108,15 +3088,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
-      propertyPath: m_TagString
-      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -3362,78 +3338,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
-      propertyPath: m_TagString
-      value: Item
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1877806515
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1877806516}
-  - component: {fileID: 1877806517}
-  - component: {fileID: 1877806518}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: checkFound
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1877806516
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1877806515}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 942575904}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &1877806517
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1877806515}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.07372077, y: -0.018253889}
-  serializedVersion: 2
-  m_Radius: 2.9973884
---- !u!114 &1877806518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1877806515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bd37a918445e9f448e2e7ea118d7fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Bullet: {fileID: 1918662145593630, guid: ec02b88b011b6d348828e98ecb840995, type: 2}
-  realBullet: {fileID: 0}
-  isSeen: 0
 --- !u!1001 &1933910242
 Prefab:
   m_ObjectHideFlags: 0
@@ -3476,10 +3389,6 @@ Prefab:
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
-      propertyPath: m_TagString
-      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}

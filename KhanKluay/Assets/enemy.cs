@@ -39,6 +39,7 @@ public class enemy : MonoBehaviour {
 	void Update () {
 		
 		if (hpenemy <= 0) {
+			GameContorler.numScore+=10;
 			Destroy(gameObject);
         }
 		img.GetComponent<RectTransform>().sizeDelta = new Vector2( (hpenemy / max) * widthImg,img.GetComponent<RectTransform>().sizeDelta.y );
@@ -97,9 +98,12 @@ public class enemy : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D other)
 	{
-		if(other.gameObject.CompareTag("Player")) {
+		if(other.gameObject.CompareTag("Player") && gameObject.CompareTag("enemy")) {
 			ControlPlayer.hpplayer -= 5;
 			hpenemy -= 20;
+		}
+		else if (other.gameObject.CompareTag("Player") && gameObject.CompareTag("mushroomenemy")) {
+			ControlPlayer.hpplayer--;
 		}
 	}
 }
