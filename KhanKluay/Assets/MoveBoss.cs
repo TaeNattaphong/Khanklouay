@@ -15,12 +15,17 @@ public class MoveBoss : MonoBehaviour {
 
 	public int distance = -1;
 
-	public float hpenemy = 1000f;
+	public float hpenemy = 500f;
+	public float max = 500f;
+	public Image img;
+	private float widthImg;
+
 
 	void Start () {
 		post=GetComponent<Transform>();
 		moveMent=GetComponent<Rigidbody2D>();
 		fact=GetComponent<Animator>();
+		widthImg =  img.GetComponent<RectTransform>().sizeDelta.x;
 
 	}
 
@@ -43,6 +48,10 @@ public class MoveBoss : MonoBehaviour {
 		}
     }
 	void Update () {
+		if (hpenemy <= 0) {
+			Destroy(gameObject);
+        }
+		img.GetComponent<RectTransform>().sizeDelta = new Vector2( (hpenemy / max) * widthImg,img.GetComponent<RectTransform>().sizeDelta.y );
 		if(gameObject.transform.position.x <= -42){  
 			fact.SetBool("isRight", true);
 			distance = 1;
