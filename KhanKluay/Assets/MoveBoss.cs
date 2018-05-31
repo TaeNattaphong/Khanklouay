@@ -34,8 +34,6 @@ public class MoveBoss : MonoBehaviour {
 			timeOut = Time.time;
 		}
     }
-
-
 	void Update () {
 		if(gameObject.transform.position.x <= -45){  
 			fact.SetBool("isLeft", true);
