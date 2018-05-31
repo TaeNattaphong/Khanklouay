@@ -350,7 +350,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4825063752886848, guid: ed3ef8372e4ddf64c8b04af6d02cce6b, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1665242209780136, guid: ed3ef8372e4ddf64c8b04af6d02cce6b, type: 2}
       propertyPath: m_Name
@@ -582,7 +582,7 @@ Prefab:
     - target: {fileID: 224983977737439442, guid: cea565b85058c0049a3ee18b64333c14,
         type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 224983977737439442, guid: cea565b85058c0049a3ee18b64333c14,
         type: 2}
@@ -622,7 +622,7 @@ Prefab:
     - target: {fileID: 224983977737439442, guid: cea565b85058c0049a3ee18b64333c14,
         type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 224983977737439442, guid: cea565b85058c0049a3ee18b64333c14,
         type: 2}
@@ -825,11 +825,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -882,7 +886,7 @@ Transform:
   - {fileID: 679445399}
   - {fileID: 2113290388}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &474982493
 Prefab:
@@ -921,11 +925,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -1441,7 +1449,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -1583,11 +1595,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -1629,7 +1645,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4244558934035240, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
@@ -2045,11 +2065,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4244558934035240, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
       propertyPath: m_Name
       value: heart (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
@@ -2165,7 +2189,6 @@ Transform:
   m_LocalPosition: {x: 33.282, y: -5.326, z: 0}
   m_LocalScale: {x: 11.121085, y: 13.6964035, z: 1}
   m_Children:
-  - {fileID: 1877806516}
   - {fileID: 399593481}
   m_Father: {fileID: 0}
   m_RootOrder: 17
@@ -2183,7 +2206,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bullet: {fileID: 1918662145593630, guid: ec02b88b011b6d348828e98ecb840995, type: 2}
   realBullet: {fileID: 0}
-  distance: -1
   hpenemy: 1000
   max: 500
   img: {fileID: 114355139402253832, guid: a86f3432abeac86479023f780e4bddae, type: 2}
@@ -2550,11 +2572,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -2796,11 +2822,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4244558934035240, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
       propertyPath: m_Name
       value: heart (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
@@ -3042,11 +3072,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -3088,11 +3122,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -3142,7 +3180,7 @@ Prefab:
     - target: {fileID: 224142043110763446, guid: a86f3432abeac86479023f780e4bddae,
         type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224142043110763446, guid: a86f3432abeac86479023f780e4bddae,
         type: 2}
@@ -3338,11 +3376,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085784314430746, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -3389,6 +3431,10 @@ Prefab:
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
