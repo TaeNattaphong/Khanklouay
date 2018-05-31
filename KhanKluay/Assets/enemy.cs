@@ -19,7 +19,7 @@ public class enemy : MonoBehaviour {
 	public bool isFoundPlayer = false;
 
 	private float currentPlayer;
-	public static float hp;
+	public float hpenemy;
     public float max = 100;
     public Image img;
 	private float widthImg;
@@ -32,16 +32,16 @@ public class enemy : MonoBehaviour {
 		currentPlayer = en.transform.position.x;
 		Debug.Log(name); 	
 		widthImg =  img.GetComponent<RectTransform>().sizeDelta.x;
-        hp = 100;
+        hpenemy = 100;
 	}
 	
 
 	void Update () {
 		
-		if (hp <= 0) {
+		if (hpenemy <= 0) {
 			Destroy(gameObject);
         }
-		img.GetComponent<RectTransform>().sizeDelta = new Vector2( (hp / max) * widthImg,img.GetComponent<RectTransform>().sizeDelta.y );
+		img.GetComponent<RectTransform>().sizeDelta = new Vector2( (hpenemy / max) * widthImg,img.GetComponent<RectTransform>().sizeDelta.y );
 		float jump = 0f;
 
 		if (spwanPosition.x + startWalk <= gameObject.transform.position.x || playerPosition.x - en.transform.position.x < 1){
@@ -98,8 +98,8 @@ public class enemy : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D other)
 	{
 		if(other.gameObject.CompareTag("Player")) {
-			ControlPlayer.hp -= 5;
-			hp -= 20;
+			ControlPlayer.hpplayer -= 5;
+			hpenemy -= 20;
 		}
 	}
 }

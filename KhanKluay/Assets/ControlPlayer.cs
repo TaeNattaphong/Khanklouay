@@ -11,9 +11,11 @@ public class ControlPlayer : MonoBehaviour
     public Rigidbody2D myRigit;
     public BoxCollider2D myForm;
     public bool Paused;
-    public static float hp;
+    public static float hpplayer;
     public float max = 100;
     public Image img;
+
+    private int distance = 1;
 
     private float widthImg;
 
@@ -28,13 +30,13 @@ public class ControlPlayer : MonoBehaviour
         myForm = GetComponent<BoxCollider2D>();
         Paused = false;
         widthImg =  img.GetComponent<RectTransform>().sizeDelta.x;
-        hp = 100;
+        hpplayer = 100;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (hp <= 0) {
+        if (hpplayer <= 0) {
             if (GameContorler.numLife == 0) {
 				new seen().ChangeScene("GameOver");
 			}
@@ -44,14 +46,15 @@ public class ControlPlayer : MonoBehaviour
 				tt = GameObject.Find("/Canvas showVeiw/Life").GetComponent<Text>();
 				GameContorler.numLife--;
 				tt.text = "Life = " + GameContorler.numLife;
-                hp = 100;
+                hpplayer = 100;
 			}
         }
-        img.GetComponent<RectTransform>().sizeDelta = new Vector2( (hp / max) * widthImg,img.GetComponent<RectTransform>().sizeDelta.y );
+        img.GetComponent<RectTransform>().sizeDelta = new Vector2( (hpplayer / max) * widthImg,img.GetComponent<RectTransform>().sizeDelta.y );
         // Debug.Log((hp / max) * widthImg);
         // Debug.Log(hp / max + " " + widthImg);
         if (Input.GetKey(KeyCode.D) || (Input.GetKey(KeyCode.RightArrow)))
         {
+            distance = 1;
             //.rigidbody2D.velocity = new Vector2(3f, 0f);
             ani.SetBool("isLeft", false);
             ani.SetBool("walk", true);
@@ -64,6 +67,7 @@ public class ControlPlayer : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A) || (Input.GetKey(KeyCode.LeftArrow)))
         {
+            distance = -1;
             ani.SetBool("isLeft", true);
             ani.SetBool("walkBack", true);
             myRigit.transform.Translate(new Vector3(-15f * Time.deltaTime, 0));
@@ -111,21 +115,23 @@ public class ControlPlayer : MonoBehaviour
             myForm.size = new Vector2(0.5f, 0.3964556f);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && !ani.GetBool("isLeft"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             ani.SetBool("shootRight", true);
             bulletPrefub = Instantiate(bullet, gameObject.transform.position, Quaternion.identity);
-            bullet.GetComponent<Bullet>().player = gameObject;
-            bulletPrefub.GetComponent<Rigidbody2D>().velocity = new Vector2(50f, 0f);
+            bulletPrefub.GetComponent<Bullet>().player = gameObject;
+            bulletPrefub.GetComponent<Bullet>().setDamage(30f);
+            bulletPrefub.GetComponent<Rigidbody2D>().velocity = new Vector2(50f*distance, 0f);
+            bulletPrefub.GetComponent<SpriteRenderer>().flipX = distance < 0;
             Destroy(bulletPrefub, 7);
         }
-        else if (Input.GetKeyDown(KeyCode.Space) && ani.GetBool("isLeft"))
-        {
-            ani.SetBool("shootLeft", true);
-            bulletPrefub = Instantiate(bullet, gameObject.transform.position, Quaternion.identity);
-            bullet.GetComponent<Bullet>().player = gameObject;
-            bulletPrefub.GetComponent<Rigidbody2D>().velocity = new Vector2(-50f, 0f);
-            Destroy(bulletPrefub, 7);
+        // else if (Input.GetKeyDown(KeyCode.Space) && ani.GetBool("isLeft"))
+        // {
+        //     ani.SetBool("shootLeft", true);
+        //     bulletPrefub = Instantiate(bullet, gameObject.transform.position, Quaternion.identity);
+        //     bullet.GetComponent<Bullet>().player = gameObject;
+        //     bulletPrefub.GetComponent<Rigidbody2D>().velocity = new Vector2(-50f, 0f);
+        //     Destroy(bulletPrefub, 7);
 
             /* void CmdFire(Vector2 a) {
         GameObject bulletOb = Instantiate(bullet, transform.position, Quaternion.identity);
@@ -134,7 +140,7 @@ public class ControlPlayer : MonoBehaviour
         NetworkServer.Spawn(bulletOb);
         Destroy(bulletOb, 2);
     } */
-        }
+        // }
         else
         {
             ani.SetBool("shootRight", false);
