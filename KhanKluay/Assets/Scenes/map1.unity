@@ -872,7 +872,7 @@ GameObject:
   - component: {fileID: 17645257}
   m_Layer: 0
   m_Name: coin (40)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1414,7 +1414,7 @@ GameObject:
   - component: {fileID: 31900387}
   m_Layer: 0
   m_Name: coin (41)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3275,7 +3275,7 @@ GameObject:
   - component: {fileID: 87682379}
   m_Layer: 0
   m_Name: coin (46)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9389,7 +9389,7 @@ GameObject:
   - component: {fileID: 261796870}
   m_Layer: 0
   m_Name: coin (50)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10295,7 +10295,7 @@ GameObject:
   - component: {fileID: 293458648}
   m_Layer: 0
   m_Name: coin (24)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10986,6 +10986,10 @@ Prefab:
       propertyPath: sound
       value: 
       objectReference: {fileID: 8300000, guid: 62b2079c46759ba449192c7769896421, type: 3}
+    - target: {fileID: 1863755201924148, guid: c5c0c9cd7ae5f1e4a85e884902ecf125, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c5c0c9cd7ae5f1e4a85e884902ecf125, type: 2}
   m_IsPrefabParent: 0
@@ -11152,7 +11156,7 @@ GameObject:
   - component: {fileID: 322493964}
   m_Layer: 0
   m_Name: coin (32)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14182,7 +14186,7 @@ GameObject:
   - component: {fileID: 392279997}
   m_Layer: 0
   m_Name: coin (35)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14544,7 +14548,7 @@ GameObject:
   - component: {fileID: 399697729}
   m_Layer: 0
   m_Name: coin (37)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21163,7 +21167,7 @@ GameObject:
   - component: {fileID: 552795436}
   m_Layer: 0
   m_Name: coin (16)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21873,7 +21877,7 @@ GameObject:
   - component: {fileID: 578165688}
   m_Layer: 0
   m_Name: coin (14)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23735,7 +23739,7 @@ GameObject:
   - component: {fileID: 614848541}
   m_Layer: 0
   m_Name: coin (51)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24967,7 +24971,7 @@ GameObject:
   - component: {fileID: 649059805}
   m_Layer: 0
   m_Name: coin (25)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25629,7 +25633,7 @@ GameObject:
   - component: {fileID: 663365816}
   m_Layer: 0
   m_Name: coin (39)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30015,7 +30019,7 @@ GameObject:
   - component: {fileID: 778891271}
   m_Layer: 0
   m_Name: coin (43)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30477,7 +30481,7 @@ GameObject:
   - component: {fileID: 790829281}
   m_Layer: 0
   m_Name: coin (21)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30691,7 +30695,7 @@ GameObject:
   - component: {fileID: 793619433}
   m_Layer: 0
   m_Name: coin (12)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31379,7 +31383,7 @@ GameObject:
   - component: {fileID: 805415889}
   m_Layer: 0
   m_Name: coin (23)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33307,7 +33311,7 @@ GameObject:
   - component: {fileID: 852214030}
   m_Layer: 0
   m_Name: coin (17)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33769,7 +33773,7 @@ GameObject:
   - component: {fileID: 861644865}
   m_Layer: 0
   m_Name: coin (55)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34747,6 +34751,10 @@ Prefab:
       propertyPath: sound
       value: 
       objectReference: {fileID: 8300000, guid: 62b2079c46759ba449192c7769896421, type: 3}
+    - target: {fileID: 1863755201924148, guid: c5c0c9cd7ae5f1e4a85e884902ecf125, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c5c0c9cd7ae5f1e4a85e884902ecf125, type: 2}
   m_IsPrefabParent: 0
@@ -35539,7 +35547,7 @@ GameObject:
   - component: {fileID: 916413284}
   m_Layer: 0
   m_Name: coin (15)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36739,7 +36747,7 @@ GameObject:
   - component: {fileID: 959758879}
   m_Layer: 0
   m_Name: coin (54)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37945,7 +37953,7 @@ GameObject:
   - component: {fileID: 979228296}
   m_Layer: 0
   m_Name: coin (13)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39203,7 +39211,7 @@ GameObject:
   - component: {fileID: 1008487750}
   m_Layer: 0
   m_Name: coin (28)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40135,7 +40143,7 @@ GameObject:
   - component: {fileID: 1028424922}
   m_Layer: 0
   m_Name: coin (38)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40993,7 +41001,7 @@ GameObject:
   - component: {fileID: 1058717563}
   m_Layer: 0
   m_Name: coin (52)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41681,7 +41689,7 @@ GameObject:
   - component: {fileID: 1073045792}
   m_Layer: 0
   m_Name: coin (11)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42243,7 +42251,7 @@ GameObject:
   - component: {fileID: 1082332122}
   m_Layer: 0
   m_Name: coin (22)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43555,7 +43563,7 @@ GameObject:
   - component: {fileID: 1123851194}
   m_Layer: 0
   m_Name: coin (36)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44191,7 +44199,7 @@ GameObject:
   - component: {fileID: 1133049006}
   m_Layer: 0
   m_Name: coin (27)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44405,7 +44413,7 @@ GameObject:
   - component: {fileID: 1133271602}
   m_Layer: 0
   m_Name: coin (20)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46037,7 +46045,7 @@ GameObject:
   - component: {fileID: 1166221871}
   m_Layer: 0
   m_Name: coin (49)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46625,7 +46633,7 @@ GameObject:
   - component: {fileID: 1182728218}
   m_Layer: 0
   m_Name: coin (44)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49351,7 +49359,7 @@ GameObject:
   - component: {fileID: 1236888712}
   m_Layer: 0
   m_Name: coin (30)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51366,7 +51374,7 @@ GameObject:
   - component: {fileID: 1276965128}
   m_Layer: 0
   m_Name: coin (47)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51976,7 +51984,7 @@ GameObject:
   - component: {fileID: 1292956838}
   m_Layer: 0
   m_Name: coin (31)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54381,6 +54389,10 @@ Prefab:
       propertyPath: sound
       value: 
       objectReference: {fileID: 8300000, guid: 62b2079c46759ba449192c7769896421, type: 3}
+    - target: {fileID: 1863755201924148, guid: c5c0c9cd7ae5f1e4a85e884902ecf125, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c5c0c9cd7ae5f1e4a85e884902ecf125, type: 2}
   m_IsPrefabParent: 0
@@ -55628,6 +55640,10 @@ Prefab:
       propertyPath: sound
       value: 
       objectReference: {fileID: 8300000, guid: 62b2079c46759ba449192c7769896421, type: 3}
+    - target: {fileID: 1863755201924148, guid: c5c0c9cd7ae5f1e4a85e884902ecf125, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c5c0c9cd7ae5f1e4a85e884902ecf125, type: 2}
   m_IsPrefabParent: 0
@@ -57978,7 +57994,7 @@ GameObject:
   - component: {fileID: 1490392096}
   m_Layer: 0
   m_Name: coin (42)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58988,7 +59004,7 @@ GameObject:
   - component: {fileID: 1498435635}
   m_Layer: 0
   m_Name: coin (56)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61754,7 +61770,7 @@ GameObject:
   - component: {fileID: 1570698587}
   m_Layer: 0
   m_Name: coin (34)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63112,7 +63128,7 @@ GameObject:
   - component: {fileID: 1606502238}
   m_Layer: 0
   m_Name: coin (33)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65814,7 +65830,7 @@ GameObject:
   - component: {fileID: 1666472146}
   m_Layer: 0
   m_Name: coin (53)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66847,7 +66863,7 @@ GameObject:
   - component: {fileID: 1686439436}
   m_Layer: 0
   m_Name: coin (29)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73520,7 +73536,7 @@ GameObject:
   - component: {fileID: 1899547195}
   m_Layer: 0
   m_Name: coin (45)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75326,7 +75342,7 @@ GameObject:
   - component: {fileID: 1927098178}
   m_Layer: 0
   m_Name: coin (48)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76758,7 +76774,7 @@ GameObject:
   - component: {fileID: 1956678240}
   m_Layer: 0
   m_Name: coin (19)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83080,7 +83096,7 @@ GameObject:
   - component: {fileID: 2118263217}
   m_Layer: 0
   m_Name: coin (18)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83368,7 +83384,7 @@ GameObject:
   - component: {fileID: 2120904552}
   m_Layer: 0
   m_Name: coin (26)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

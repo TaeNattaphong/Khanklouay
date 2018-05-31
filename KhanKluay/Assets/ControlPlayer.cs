@@ -50,7 +50,7 @@ public class ControlPlayer : MonoBehaviour
         img.GetComponent<RectTransform>().sizeDelta = new Vector2( (hp / max) * widthImg,img.GetComponent<RectTransform>().sizeDelta.y );
         // Debug.Log((hp / max) * widthImg);
         // Debug.Log(hp / max + " " + widthImg);
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) || (Input.GetKey(KeyCode.RightArrow)))
         {
             //.rigidbody2D.velocity = new Vector2(3f, 0f);
             ani.SetBool("isLeft", false);
@@ -62,7 +62,7 @@ public class ControlPlayer : MonoBehaviour
             ani.SetBool("walk", false);
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) || (Input.GetKey(KeyCode.LeftArrow)))
         {
             ani.SetBool("isLeft", true);
             ani.SetBool("walkBack", true);
@@ -73,12 +73,12 @@ public class ControlPlayer : MonoBehaviour
             ani.SetBool("walkBack", false);
         }
 
-        if (Input.GetKeyDown(KeyCode.W) && (myRigit.velocity.y == 0) && !(ani.GetBool("isLeft")))
+        if (Input.GetKeyDown(KeyCode.W) || (Input.GetKeyDown(KeyCode.UpArrow)) && (myRigit.velocity.y == 0) && !(ani.GetBool("isLeft")))
         {
             ani.SetBool("jumpRight", true);
             myRigit.velocity = new Vector2(0,18f);
         }
-        else if (Input.GetKeyDown(KeyCode.W) && (myRigit.velocity.y == 0) && (ani.GetBool("isLeft")))
+        else if (Input.GetKeyDown(KeyCode.W) || (Input.GetKeyDown(KeyCode.UpArrow)) && (myRigit.velocity.y == 0) && (ani.GetBool("isLeft")))
         {
             ani.SetBool("jumpLeft", true);
             myRigit.velocity = new Vector2(0,18f);
@@ -89,14 +89,14 @@ public class ControlPlayer : MonoBehaviour
             ani.SetBool("jumpLeft", false);
         }
 
-        if (Input.GetKeyDown(KeyCode.S) && !ani.GetBool("isLeft"))
+        if (Input.GetKeyDown(KeyCode.S) || (Input.GetKeyDown(KeyCode.DownArrow)) && !ani.GetBool("isLeft"))
         {
             ani.SetBool("coverRight", true);
             // myForm.offset = new Vector2(0, -0.2008744f);
             // myForm.size = new Vector2(0.5f, 0.0001f);
             // myRigit.velocity = new Vector2(0, 0);
         }
-        else if (Input.GetKey(KeyCode.S) && ani.GetBool("isLeft"))
+        else if (Input.GetKey(KeyCode.S) || (Input.GetKeyDown(KeyCode.DownArrow)) && ani.GetBool("isLeft"))
         {
             ani.SetBool("coverLeft", true);
             myForm.offset = new Vector2(0, -0.2008744f);
@@ -142,6 +142,9 @@ public class ControlPlayer : MonoBehaviour
         }
 
         if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A)){
+            myRigit.velocity = new Vector2(0, 0);
+        }
+        if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.LeftArrow)){
             myRigit.velocity = new Vector2(0, 0);
         }
     }

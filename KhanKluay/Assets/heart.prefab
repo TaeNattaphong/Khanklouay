@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114168218185943354}
   m_Layer: 0
   m_Name: heart
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,6 +78,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 717123c53ed249e41827ba27105dd851, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 0}
+  source: {fileID: 0}
 --- !u!212 &212851090529922072
 SpriteRenderer:
   m_ObjectHideFlags: 1
