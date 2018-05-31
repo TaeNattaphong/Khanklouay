@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class MoveBoss : MonoBehaviour {
+	public AudioClip sound;
+   	public AudioSource source;
 
 	public GameObject Bullet, realBullet;
 	Transform post;
@@ -26,7 +28,7 @@ public class MoveBoss : MonoBehaviour {
 		moveMent=GetComponent<Rigidbody2D>();
 		fact=GetComponent<Animator>();
 		widthImg =  img.GetComponent<RectTransform>().sizeDelta.x;
-
+		source = GetComponent<AudioSource>();
 	}
 
 	public void SeenPlayerAndFire(Collider2D coll)
@@ -72,7 +74,7 @@ public class MoveBoss : MonoBehaviour {
 			int i = 1;
 			//Debug.Log("shoot");
 			while(i != 5){
-
+				new Sound().SoundFX(sound, gameObject.transform.position);
 				realBullet = Instantiate(Bullet, gameObject.transform.position, Quaternion.identity);
 				realBullet.GetComponent<Rigidbody2D>().velocity = new Vector2((10f+i)*distance,i-2);
 				realBullet.GetComponent<Bullet>().setDamage(50);

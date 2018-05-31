@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ControlPlayer : MonoBehaviour
 {
+    public AudioClip sound;
+   	public AudioSource source;
 
     public GameObject bullet, bulletPrefub;
     public Animator ani;
@@ -31,6 +33,7 @@ public class ControlPlayer : MonoBehaviour
         Paused = false;
         widthImg =  img.GetComponent<RectTransform>().sizeDelta.x;
         hpplayer = 100;
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -117,6 +120,7 @@ public class ControlPlayer : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            new Sound().SoundFX(sound, gameObject.transform.position);
             ani.SetBool("shootRight", true);
             bulletPrefub = Instantiate(bullet, gameObject.transform.position, Quaternion.identity);
             bulletPrefub.GetComponent<Bullet>().player = gameObject;
@@ -159,9 +163,12 @@ public class ControlPlayer : MonoBehaviour
     {
      //booster
         if (coll.gameObject.CompareTag("Booster")) {
+            new Sound().SoundFX(sound, gameObject.transform.position);
+            Debug.Log("in");
 			myRigit.velocity = new Vector2(0f, 30f);
 		}
         else if (coll.gameObject.CompareTag("Death")) {
+            
 			if (GameContorler.numLife == 0) {
 				new seen().ChangeScene("GameOver");
 			}
