@@ -38,8 +38,11 @@ public class MoveBoss : MonoBehaviour {
 
 	void Update () {
 		if(gameObject.transform.position.x <= -45){  
+			fact.SetBool("isLeft", true);
 			distance = 1;
+
 		}else if(gameObject.transform.position.x >= 50){
+			fact.SetBool("isLeft", false);
 			distance = -1;
 		}
 		moveMent.velocity = new Vector2(12f*distance, 0);
