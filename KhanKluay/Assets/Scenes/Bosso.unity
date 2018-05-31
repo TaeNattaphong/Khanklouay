@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 8282735}
   m_Layer: 0
   m_Name: Untitled-2 (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 243696075}
   m_Layer: 0
   m_Name: Untitled-2 (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -384,7 +384,7 @@ GameObject:
   - component: {fileID: 276933126}
   m_Layer: 0
   m_Name: Untitled-2 (1)
-  m_TagString: wall
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -484,7 +484,7 @@ GameObject:
   - component: {fileID: 296626676}
   m_Layer: 0
   m_Name: Untitled-2 (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -695,7 +695,7 @@ GameObject:
   - component: {fileID: 387937074}
   m_Layer: 0
   m_Name: Untitled-2 (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -826,6 +826,10 @@ Prefab:
       propertyPath: m_Name
       value: coin (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
   m_IsPrefabParent: 0
@@ -922,6 +926,10 @@ Prefab:
       propertyPath: m_Name
       value: coin (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
   m_IsPrefabParent: 0
@@ -937,7 +945,7 @@ GameObject:
   - component: {fileID: 480685511}
   m_Layer: 0
   m_Name: Untitled-2 (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1037,7 +1045,7 @@ GameObject:
   - component: {fileID: 588885896}
   m_Layer: 0
   m_Name: Mushroom_2 (2)
-  m_TagString: Booster
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1137,7 +1145,7 @@ GameObject:
   - component: {fileID: 596953404}
   m_Layer: 0
   m_Name: Mushroom_2 (1)
-  m_TagString: Booster
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1236,7 +1244,7 @@ GameObject:
   - component: {fileID: 638904138}
   m_Layer: 0
   m_Name: Untitled-2 (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1311,7 +1319,7 @@ GameObject:
   - component: {fileID: 679445397}
   m_Layer: 0
   m_Name: Untitled-5 (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1438,6 +1446,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
   m_IsPrefabParent: 0
@@ -1453,7 +1465,7 @@ GameObject:
   - component: {fileID: 691575631}
   m_Layer: 0
   m_Name: Mushroom_2 (1)
-  m_TagString: Booster
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1584,6 +1596,10 @@ Prefab:
       propertyPath: m_Name
       value: coin (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
   m_IsPrefabParent: 0
@@ -1626,6 +1642,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
   m_IsPrefabParent: 0
@@ -1640,7 +1660,7 @@ GameObject:
   - component: {fileID: 790372610}
   m_Layer: 0
   m_Name: mot-silhouette-forest
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1715,7 +1735,7 @@ GameObject:
   - component: {fileID: 817687216}
   m_Layer: 0
   m_Name: Untitled-2
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2046,6 +2066,10 @@ Prefab:
       propertyPath: m_Name
       value: heart (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
   m_IsPrefabParent: 0
@@ -2161,6 +2185,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bullet: {fileID: 1918662145593630, guid: ec02b88b011b6d348828e98ecb840995, type: 2}
   realBullet: {fileID: 0}
+  distance: -1
+  hpenemy: 1000
 --- !u!95 &942575906
 Animator:
   serializedVersion: 3
@@ -2206,7 +2232,7 @@ GameObject:
   - component: {fileID: 971040867}
   m_Layer: 0
   m_Name: Untitled-2 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2399,7 +2425,7 @@ GameObject:
   - component: {fileID: 1258196546}
   m_Layer: 0
   m_Name: Untitled-2 (4)
-  m_TagString: wall
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2530,6 +2556,10 @@ Prefab:
       propertyPath: m_Name
       value: coin (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
   m_IsPrefabParent: 0
@@ -2545,7 +2575,7 @@ GameObject:
   - component: {fileID: 1394211775}
   m_Layer: 0
   m_Name: Untitled-5 (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2776,6 +2806,10 @@ Prefab:
       propertyPath: m_Name
       value: heart (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
   m_IsPrefabParent: 0
@@ -2791,7 +2825,7 @@ GameObject:
   - component: {fileID: 1605569209}
   m_Layer: 0
   m_Name: Mushroom_2
-  m_TagString: Booster
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2991,7 +3025,7 @@ GameObject:
   - component: {fileID: 1629994748}
   m_Layer: 0
   m_Name: Mushroom_2
-  m_TagString: Booster
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3122,6 +3156,10 @@ Prefab:
       propertyPath: m_Name
       value: coin (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
   m_IsPrefabParent: 0
@@ -3167,6 +3205,10 @@ Prefab:
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -3214,6 +3256,10 @@ Prefab:
       propertyPath: m_Name
       value: coin (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
   m_IsPrefabParent: 0
@@ -3226,6 +3272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1877806516}
   - component: {fileID: 1877806517}
+  - component: {fileID: 1877806518}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: checkFound
@@ -3261,6 +3308,20 @@ CircleCollider2D:
   m_Offset: {x: 0.07372077, y: -0.018253889}
   serializedVersion: 2
   m_Radius: 2.9973884
+--- !u!114 &1877806518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1877806515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd37a918445e9f448e2e7ea118d7fad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bullet: {fileID: 1918662145593630, guid: ec02b88b011b6d348828e98ecb840995, type: 2}
+  realBullet: {fileID: 0}
+  isSeen: 0
 --- !u!1001 &1933910242
 Prefab:
   m_ObjectHideFlags: 0
@@ -3303,6 +3364,10 @@ Prefab:
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_Name
       value: coin (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
+      propertyPath: m_TagString
+      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -3419,7 +3484,7 @@ GameObject:
   - component: {fileID: 2113290386}
   m_Layer: 0
   m_Name: Mushroom_2 (3)
-  m_TagString: Booster
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

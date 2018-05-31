@@ -12,6 +12,8 @@ TagManager:
   - ChangeSceneBosso
   - Item
   - checkFound
+  - coin
+  - Obstacle
   layers:
   - Default
   - TransparentFX

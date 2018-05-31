@@ -3,33 +3,47 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Bullet : MonoBehaviour {
+public class Bullet : MonoBehaviour
+{
 
-	// Use this for initialization
-	public GameObject player;
-	private float damage;
+    // Use this for initialization
+    public GameObject player;
+    private float damage;
 
-	public void setDamage(float damage){
-		this.damage = damage;
-	}
+    public void setDamage(float damage)
+    {
+        this.damage = damage;
+    }
 
-	void OnTriggerEnter2D(Collider2D other)
-	{
-		if (other.tag == "Item") {
+    void OnTriggerEnter2D(Collider2D other)
+    {
+		
 
-		}
-		else if (other.tag == "enemy" || (other.tag == "Player" && player.tag != "Player")) {	
-			other.gameObject.GetComponent<enemy>().hpenemy -= damage;
-			Debug.Log("fire");
-			Destroy(gameObject);
-		}
-		else if(other.gameObject != player && other.gameObject.tag != "checkFound"){
-			Debug.Log("fire2");
-			Destroy(gameObject);
+        if (player == other.gameObject || other.CompareTag("checkFound"))
+            return;
+        Debug.Log(other.name);
+        if (other.tag == "enemy" || other.tag == "Player")
+        {
+            if (other.gameObject.GetComponent<enemy>() != null)
+            {
+                Debug.Log(other.gameObject.GetComponent<enemy>());
+                other.gameObject.GetComponent<enemy>().hpenemy -= damage;
+            }
+            else if (other.gameObject.GetComponent<MoveBoss>() != null)
+            {
+                other.gameObject.GetComponent<MoveBoss>().hpenemy -= damage;
+            }
+            // Debug.Log("fire");
+            Destroy(gameObject);
+        }
+        else if (other.CompareTag("Obstacle"))
+        {
+            // Debug.Log("fire2");
+            Destroy(gameObject);
 
-			//Debug.Log("fire enemy");
-		}
-	}
+            //Debug.Log("fire enemy");
+        }
+    }
 }
 
 /*public class Bullet : NetworkBehaviour {

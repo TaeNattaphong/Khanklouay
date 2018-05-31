@@ -62,6 +62,7 @@
      <Compile Include="Assets\playercontrol.cs" />
      <Compile Include="Assets\seen.cs" />
      <Compile Include="Assets\Sound.cs" />
+     <Compile Include="Assets\triggerBoss.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/gitkrakentutorial/khanklouy/Khanklouay/KhanKluay/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

@@ -9,11 +9,13 @@ public class MoveBoss : MonoBehaviour {
 	Transform post;
 	Rigidbody2D moveMent;
 	Animator fact;
-	float timeOut, coolDown = 5;
+	float timeOut = 0, coolDown = 5;
 
 	private float jump = 0f;
 
-	private int distance = -1;
+	public int distance = -1;
+
+	public float hpenemy = 1000f;
 
 	void Start () {
 		post=GetComponent<Transform>();
@@ -22,14 +24,17 @@ public class MoveBoss : MonoBehaviour {
 
 	}
 
-	void OnTriggerStay2D(Collider2D coll)
-	{
-        if (coll.gameObject.CompareTag("Player") && (Time.time >= timeOut+coolDown)) {
+	public void SeenPlayerAndFire(Collider2D coll)
+	{	
+		Debug.Log(Time.time >= timeOut+coolDown);
+        if ((Time.time >= timeOut+coolDown)) {
+			Debug.Log("boss fire");
 			int i = 1;
 			//Debug.Log("shoot");
 			while(i != 5){
 				realBullet = Instantiate(Bullet, gameObject.transform.position, Quaternion.identity);
 				realBullet.GetComponent<Rigidbody2D>().velocity = new Vector2((10f+i)*distance,i-2);
+				realBullet.GetComponent<Bullet>().setDamage(50);
 				Debug.Log(realBullet.transform.position);
 				Destroy(realBullet, 6);
 				i += 1;
@@ -48,6 +53,31 @@ public class MoveBoss : MonoBehaviour {
 			distance = -1;
 		}
 		moveMent.velocity = new Vector2(12f*distance, 0);
+	}
+
+
+	void FixedUpdate()
+	{
+		if (FindObjectOfType<triggerBoss>().isSeen && Time.time > timeOut + coolDown) {
+			Debug.Log("boss fire");
+			int i = 1;
+			//Debug.Log("shoot");
+			while(i != 5){
+
+				realBullet = Instantiate(Bullet, gameObject.transform.position, Quaternion.identity);
+				realBullet.GetComponent<Rigidbody2D>().velocity = new Vector2((10f+i)*distance,i-2);
+				realBullet.GetComponent<Bullet>().setDamage(50);
+				realBullet.GetComponent<Bullet>().player = gameObject;
+				Debug.Log(realBullet.transform.position);
+				Destroy(realBullet, 6);
+				i += 1;
+			}
+			timeOut = Time.time;
+		}
+	}
+
+	public void setHp(){
+
 	}
 
 }
