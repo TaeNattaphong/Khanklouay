@@ -10,6 +10,7 @@ TagManager:
   - Death
   - ChangeSceneTummy
   - ChangeSceneBosso
+  - Item
   layers:
   - Default
   - TransparentFX

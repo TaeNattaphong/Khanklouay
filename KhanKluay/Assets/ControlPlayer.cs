@@ -115,6 +115,7 @@ public class ControlPlayer : MonoBehaviour
         {
             ani.SetBool("shootRight", true);
             bulletPrefub = Instantiate(bullet, gameObject.transform.position, Quaternion.identity);
+            bullet.GetComponent<Bullet>().player = gameObject;
             bulletPrefub.GetComponent<Rigidbody2D>().velocity = new Vector2(50f, 0f);
             Destroy(bulletPrefub, 7);
         }
@@ -122,8 +123,17 @@ public class ControlPlayer : MonoBehaviour
         {
             ani.SetBool("shootLeft", true);
             bulletPrefub = Instantiate(bullet, gameObject.transform.position, Quaternion.identity);
+            bullet.GetComponent<Bullet>().player = gameObject;
             bulletPrefub.GetComponent<Rigidbody2D>().velocity = new Vector2(-50f, 0f);
             Destroy(bulletPrefub, 7);
+
+            /* void CmdFire(Vector2 a) {
+        GameObject bulletOb = Instantiate(bullet, transform.position, Quaternion.identity);
+        bullet.GetComponent<Bullet> ().player = gameObject;
+        bulletOb.GetComponent<Rigidbody2D> ().velocity = a;
+        NetworkServer.Spawn(bulletOb);
+        Destroy(bulletOb, 2);
+    } */
         }
         else
         {
