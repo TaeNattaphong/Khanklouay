@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 8282735}
   m_Layer: 0
   m_Name: Untitled-2 (7)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 243696075}
   m_Layer: 0
   m_Name: Untitled-2 (9)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 276933126}
   m_Layer: 0
   m_Name: Untitled-2 (1)
-  m_TagString: Obstacle
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -589,7 +589,7 @@ GameObject:
   - component: {fileID: 296626676}
   m_Layer: 0
   m_Name: Untitled-2 (3)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -800,7 +800,7 @@ GameObject:
   - component: {fileID: 387937074}
   m_Layer: 0
   m_Name: Untitled-2 (8)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -938,7 +938,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_TagString
-      value: Item
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -1038,7 +1038,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_TagString
-      value: Item
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -1055,7 +1055,7 @@ GameObject:
   - component: {fileID: 480685511}
   m_Layer: 0
   m_Name: Untitled-2 (6)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1354,7 +1354,7 @@ GameObject:
   - component: {fileID: 638904138}
   m_Layer: 0
   m_Name: Untitled-2 (5)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1429,7 +1429,7 @@ GameObject:
   - component: {fileID: 679445397}
   m_Layer: 0
   m_Name: Untitled-5 (6)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1558,7 +1558,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_TagString
-      value: Item
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -1575,7 +1575,7 @@ GameObject:
   - component: {fileID: 691575631}
   m_Layer: 0
   m_Name: Mushroom_2 (1)
-  m_TagString: Obstacle
+  m_TagString: Booster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1708,7 +1708,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_TagString
-      value: Item
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -1754,7 +1754,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
       propertyPath: m_TagString
-      value: Item
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
@@ -1845,7 +1845,7 @@ GameObject:
   - component: {fileID: 817687216}
   m_Layer: 0
   m_Name: Untitled-2
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2178,7 +2178,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
       propertyPath: m_TagString
-      value: Item
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
@@ -2194,6 +2194,7 @@ GameObject:
   - component: {fileID: 942575903}
   - component: {fileID: 942575902}
   - component: {fileID: 942575906}
+  - component: {fileID: 942575901}
   - component: {fileID: 942575905}
   - component: {fileID: 942575907}
   - component: {fileID: 942575901}
@@ -2374,7 +2375,6 @@ Transform:
   m_LocalPosition: {x: 33.282, y: -5.326, z: 0}
   m_LocalScale: {x: 11.121085, y: 13.6964035, z: 1}
   m_Children:
-  - {fileID: 1877806516}
   - {fileID: 399593481}
   m_Father: {fileID: 0}
   m_RootOrder: 17
@@ -2394,7 +2394,6 @@ MonoBehaviour:
   source: {fileID: 0}
   Bullet: {fileID: 1918662145593630, guid: ec02b88b011b6d348828e98ecb840995, type: 2}
   realBullet: {fileID: 0}
-  distance: -1
   hpenemy: 1000
   max: 500
   img: {fileID: 114355139402253832, guid: a86f3432abeac86479023f780e4bddae, type: 2}
@@ -2443,7 +2442,7 @@ GameObject:
   - component: {fileID: 971040867}
   m_Layer: 0
   m_Name: Untitled-2 (2)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2636,7 +2635,7 @@ GameObject:
   - component: {fileID: 1258196546}
   m_Layer: 0
   m_Name: Untitled-2 (4)
-  m_TagString: Obstacle
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2769,7 +2768,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_TagString
-      value: Item
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -2786,7 +2785,7 @@ GameObject:
   - component: {fileID: 1394211775}
   m_Layer: 0
   m_Name: Untitled-5 (3)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3019,7 +3018,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1221516617576784, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
       propertyPath: m_TagString
-      value: Item
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1a8a14793689824ebd8dbaa28208420, type: 2}
@@ -3269,7 +3268,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_TagString
-      value: Item
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -3319,7 +3318,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_TagString
-      value: Item
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
@@ -3369,7 +3368,7 @@ Prefab:
     - target: {fileID: 224142043110763446, guid: a86f3432abeac86479023f780e4bddae,
         type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224142043110763446, guid: a86f3432abeac86479023f780e4bddae,
         type: 2}
@@ -3573,70 +3572,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_TagString
-      value: Item
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1877806515
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1877806516}
-  - component: {fileID: 1877806517}
-  - component: {fileID: 1877806518}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: checkFound
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1877806516
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1877806515}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 942575904}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &1877806517
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1877806515}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.07372077, y: -0.018253889}
-  serializedVersion: 2
-  m_Radius: 2.9973884
---- !u!114 &1877806518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1877806515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bd37a918445e9f448e2e7ea118d7fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Bullet: {fileID: 1918662145593630, guid: ec02b88b011b6d348828e98ecb840995, type: 2}
-  realBullet: {fileID: 0}
-  isSeen: 0
 --- !u!1001 &1933910242
 Prefab:
   m_ObjectHideFlags: 0
@@ -3682,7 +3622,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1855730053987886, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}
       propertyPath: m_TagString
-      value: Item
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 646bd36b49f7f934db92257e196ffb38, type: 2}

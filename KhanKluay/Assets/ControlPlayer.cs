@@ -52,6 +52,9 @@ public class ControlPlayer : MonoBehaviour
                 hpplayer = 100;
 			}
         }
+        else if (hpplayer > max) {
+            hpplayer = max;
+        }
         img.GetComponent<RectTransform>().sizeDelta = new Vector2( (hpplayer / max) * widthImg,img.GetComponent<RectTransform>().sizeDelta.y );
         // Debug.Log((hp / max) * widthImg);
         // Debug.Log(hp / max + " " + widthImg);
