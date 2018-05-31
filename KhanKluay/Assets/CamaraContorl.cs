@@ -13,6 +13,9 @@ public class CamaraContorl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if(player == null){
+			new seen().ChangeScene("GameOver");
+		}
 		transform.position = player.transform.position - offset;
 	}
 }
