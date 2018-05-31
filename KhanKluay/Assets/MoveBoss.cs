@@ -28,7 +28,7 @@ public class MoveBoss : MonoBehaviour {
 			while(i != 5){
 				realBullet = Instantiate(Bullet, gameObject.transform.position, Quaternion.identity);
 				realBullet.GetComponent<Rigidbody2D>().velocity = new Vector2((10f+i)*distance,i-2);
-				Destroy(realBullet, 1);
+				Destroy(realBullet, 6);
 				i += 1;
 			}
 			timeOut = Time.time;
